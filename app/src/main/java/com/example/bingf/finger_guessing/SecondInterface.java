@@ -78,7 +78,7 @@ public class SecondInterface extends AppCompatActivity {
                     et.setHint(et.getTag().toString());
                 else{
                     String hint = et.getHint().toString();
-                    textview.setTag(hint);
+                    et.setTag(hint);
                     et.setHint(null);
                 }
             }
